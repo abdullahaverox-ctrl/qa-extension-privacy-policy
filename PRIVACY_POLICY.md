@@ -6,36 +6,54 @@
 QA Session Recorder & Report Generator ("we", "our", or "the Extension") is committed to protecting your privacy. This Privacy Policy explains how our Chrome Extension collects, uses, and protects your information while you use it.
 
 ## 1. Information Collection
-Our extension is designed to act as a transparent testing and recording utility. We **do not** collect any data silently in the background. Data collection occurs **only** during an active session directly initiated by you.
+Our extension is designed to act as a transparent testing and recording utility. We **do not** collect any data silently in the background. Data collection occurs **only** during an active session explicitly initiated by you.
 
 During an active session, the Extension captures the following user interactions to generate test reports:
-*   **Navigation Events**: URLs (including query parameters) and Page Titles.
-*   **User Actions**: Click targets, element labels, check box toggles, and dropdown selections.
-*   **Form Inputs**: Values typed into input fields (truncated to a maximum of 30 characters).
-*   **Screenshots**: Only captured manually when you explicitly trigger the screenshot functionality.
+* **Navigation Events**: URLs (including query parameters) and page titles.
+* **User Actions**: Click targets, element labels, checkbox toggles, and dropdown selections.
+* **Form Inputs**: Values typed into input fields (truncated to a maximum of 30 characters).
+* **Screenshots**: Captured only when you manually trigger the screenshot functionality.
 
-## 2. Sensitive Data Filtering
+The extension only records data while a session is active. You can start and stop recording at any time, and no data is collected outside of an active session.
+
+## 2. Sensitive Data Protection
 We prioritize your privacy and explicitly filter out sensitive information. The extension is strictly programmed to **ignore and exclude**:
-*   Any inputs where the field type is `password` or `hidden`.
-*   Fields identifying themselves (via ID, or name) as containing passwords, secure tokens, authentication strings, or credit card information.
+* Any inputs where the field type is `password` or `hidden`.
+* Fields identifying themselves (via ID or name) as containing passwords, authentication tokens, secrets, or financial information (e.g., credit card details, CVV).
+
+The extension does **not** collect sensitive personal data such as passwords, payment information, authentication tokens, or confidential user inputs.
 
 ## 3. How We Use the Data
-Any data captured is restricted to the browser session and is used *exclusively* for:
-*   Generating structured QA test reports (HTML or JSON) at your request.
-*   Creating formatted bug reports and sending them to your connected Jira project.
+Any data captured is restricted to your session and is used **exclusively** for:
+* Generating structured QA test reports (HTML or JSON) at your request.
+* Creating formatted bug reports and sending them to your connected Jira project.
 
-## 4. Where Your Data is Stored
-*   All recorded session steps, intercepted actions, and manually logged bugs are stored strictly locally in your browser using Chrome's local storage (`chrome.storage.local`).
-*   Your OAuth authentication tokens for Jira (if configured) are similarly stored securely in your local browser cache.
-*   We do NOT transmit your testing data to any third-party servers, analytics providers, or external databases, outside of explicitly configured Jira environments you choose to link.
+## 4. Data Storage and Security
+* All recorded session steps, user interactions, and manually logged bugs are stored locally in your browser using Chrome's local storage (`chrome.storage.local`).
+* Jira authentication tokens (if configured) are stored locally within your browser and are not shared externally.
+* We do **not** transmit or store your data on external servers, analytics systems, or third-party databases.
 
-## 5. UI Transparency
-During any data collection period, a visual recording indicator (**🔴 Session Active**) remains firmly visible on your screen. When this indicator disappears, all session logging abruptly stops.
+Data is only sent externally when you explicitly initiate an action (such as sending a bug report to your connected Jira project).
 
-## 6. Your Data Rights
-Because all data resides strictly on your local machine, you have full control over it. You can clear your testing session reports instantly by clearing your browser storage, stopping a session, or uninstalling the extension.
+## 5. Data Sharing
+We do **not** sell, rent, or share your data with third parties.  
+Data is only shared with services you explicitly integrate with (such as Jira), and only when you initiate that action.
 
-## 7. Changes to this Policy
-We may periodically update this policy to reflect changes in our tool or for legal compliance. We encourage you to review this policy whenever we update the extension.
+## 6. UI Transparency
+During any active recording session, a clear visual indicator (**🔴 Session Active**) is displayed on the screen at all times.  
 
-For any questions or concerns regarding our privacy practices, please contact the developer via the support tab on our Chrome Web Store page.
+This ensures full transparency and informs you that session recording is in progress. When the indicator is no longer visible, no data is being recorded.
+
+## 7. Your Control and Rights
+You have full control over your data at all times:
+* You can start or stop a recording session at any time.
+* You can delete stored session data by clearing your browser storage.
+* Uninstalling the extension removes all locally stored data.
+
+## 8. Changes to this Policy
+We may update this Privacy Policy from time to time to reflect changes in functionality or legal requirements. Updates will be reflected by revising the effective date above.
+
+## 9. Contact Information
+If you have any questions or concerns about this Privacy Policy, you can contact us at:
+
+[Your Email Address]
