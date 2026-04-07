@@ -56,4 +56,4 @@ We may update this Privacy Policy from time to time to reflect changes in functi
 ## 9. Contact Information
 If you have any questions or concerns about this Privacy Policy, you can contact us at:
 
-[Your Email Address]
+{abdullahaverox@gmail.com]
