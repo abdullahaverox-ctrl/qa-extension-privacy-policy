@@ -53,7 +53,9 @@ You have full control over your data at all times:
 ## 8. Changes to this Policy
 We may update this Privacy Policy from time to time to reflect changes in functionality or legal requirements. Updates will be reflected by revising the effective date above.
 
+Data may be transmitted to third-party services (such as Jira) only when the user explicitly initiates an export action. No automatic background transmission occurs.
+
 ## 9. Contact Information
 If you have any questions or concerns about this Privacy Policy, you can contact us at:
 
-{abdullahaverox@gmail.com]
+abdullahaverox@gmail.com
